@@ -1,0 +1,47 @@
+
+.detailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;   
+}
+
+
+.img1 {
+    height: 330px;
+    width: auto;
+}
+
+.conteUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conteDos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones {
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px){
+
+    .detailContainer{
+        height: 300px;   
+    }
+    
+    
+    .img1 {
+        height: 120px;
+        width: auto;
+    }
+    
+}
+

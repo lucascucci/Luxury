@@ -1,0 +1,49 @@
+
+
+.imagenMedio{
+    background-size: contain;
+    align-items: center;
+    width: 1200px;
+}
+
+@media (min-width: 280px) and (max-width: 319px){
+
+    .imagenMedio{
+
+        width: 100%;
+    } 
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    .imagenMedio{
+
+        width: 100%;
+    } 
+}
+
+
+@media (min-width: 576px) and (max-width: 769px){
+
+    .imagenMedio{
+
+        width: 100%;
+    } 
+}
+
+@media (min-width: 770px) and (max-width: 1024px){
+
+    .imagenMedio{
+
+        width: 100%;
+    } 
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+
+    .imagenMedio{
+
+        width: 100%;
+    } 
+}
+
+

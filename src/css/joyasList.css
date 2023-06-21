@@ -1,0 +1,38 @@
+.joyasContainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 950px;
+        width: auto;
+        padding: 3%;
+    }
+
+    @media only screen and (min-width: 280px) and (max-width: 575px){
+
+        .joyasContainer{
+    
+            height: 2950px;
+            width: auto;
+            padding: 1%;
+        }
+    }
+
+    @media only screen and (min-width: 576px) and (max-width: 769px){
+
+        .joyasContainer{
+            height: 1350px;
+            width: auto;
+            padding: 1%;
+        }   
+    }
+
+    @media only screen and (min-width: 770px) and (max-width: 992px){
+
+        .joyasContainer{
+            height: 1450px;
+            width: auto;
+            padding: 1%;
+        }  
+    
+    }

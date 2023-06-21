@@ -1,0 +1,45 @@
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.medioPago {
+    width: auto;
+    height: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px){
+
+    .footer{
+        height: 650px;
+    }
+    
+    .medioPago {
+        width: auto;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px){
+    .footer{
+        height: 450px;
+    }
+    
+    .medioPago {
+        width: auto;
+        height: 20px;
+    }
+    
+}

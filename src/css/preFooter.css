@@ -1,0 +1,28 @@
+
+
+.prefooter{
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: bisque;
+}
+
+.comunicate {
+    font-size: 16px;
+}
+
+.mail {
+    font-size: 14px;
+}
+
+@media (min-width: 770px) and (max-width: 992px){
+
+    .prefooter{
+        width: 100%;
+    }
+
+}
